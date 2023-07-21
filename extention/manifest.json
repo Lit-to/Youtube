@@ -1,15 +1,15 @@
 {
-    "name": "Sample",
+    "name": "bugforum",
     "version": "1.0.0",
-    "manifest_version": 2,
-    "description": "Sample Chrome Extension",
+    "manifest_version": 3,
+    "description": "the function for bugforum",
     "content_scripts": [
         {
             "matches": [
-                "https://{subdomain}.cybozu.com/k/{AppID}/*"
+                "https://bugs.mojang.com/*"
             ],
             "js": [
-                "content.js"
+                "main.js"
             ]
         }
     ]
