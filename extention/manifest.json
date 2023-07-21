@@ -5,7 +5,10 @@
     "description": "Collects bug information from Minecraft's bug tracker.",
     "permissions": [
         "activeTab",
-        "https://bugs.mojang.com/projects/MC/issues/*"
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://bugs.mojang.com/*"
     ],
     "action": {
         "default_popup": "popup.html"
