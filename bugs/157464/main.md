@@ -37,7 +37,7 @@ Duplication(同じバグ報告)が32件存在している
 -   Duplication(被り):32件
 
 # wikiチェック
-wikiの村人のページ(https://minecraft.fandom.com/wiki/Villager#Sleeping )には
+wikiの村人のページ(https://minecraft.fandom.com/wiki/Villager#Sleeping )には<br>
 ![](2023-07-19-13-01-23.png) <br />
 と既に記載あり、バグではなく限りなく仕様？
 
