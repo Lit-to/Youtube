@@ -45,7 +45,7 @@ function convertToCSV(info) {
         "Date,ID,URL,Resolution,Affects Version/s,Confirmation Status,Fix Version/s,Category",
     ];
     csv.push(
-        `${info.date},${info.id},${info.url},"${info.resolution}","${info.affectsVersions}","${info.confirmationStatus}","${info.fixVersions}","${info.category}"`
+        `${info.date},"${info.id}",${info.url},"${info.resolution}","${info.affectsVersions}","${info.confirmationStatus}","${info.fixVersions}","${info.category}"`
     );
     return csv.join("\n");
 }
