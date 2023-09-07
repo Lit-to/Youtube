@@ -1,4 +1,8 @@
+# ホットバーのスロットを切り替える時に同時にアイテムを投げると同期ズレが発生する
+-   2023-09-05 20:28:39
+-   準備中
 # 目次
+- [ホットバーのスロットを切り替える時に同時にアイテムを投げると同期ズレが発生する](#ホットバーのスロットを切り替える時に同時にアイテムを投げると同期ズレが発生する)
 - [目次](#目次)
 - [概要](#概要)
 - [報告状況](#報告状況)
@@ -10,7 +14,6 @@
 
 
 # 概要
-ホットバーのスロットを切り替える時に同時にアイテムを投げると同期ズレが発生する
 
 Source:[MC-154881](https://bugs.mojang.com/browse/MC-154881)、``Dropping an item from your hotbar at the same time as switching to another hotbar slot desyncs the second item``
 
