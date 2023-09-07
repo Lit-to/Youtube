@@ -28,7 +28,7 @@ note.append("# 目次")
 note.append("\n")
 note.append("|項目(クリックで詳細ファイル)|日付|報告タイトル|バグレポートリンク|動画リンク|")
 note.append("\n")
-note.append("|--|--|--|--|--|--|")
+note.append("|--|--|--|--|--|")
 note.append("\n")
 
 for i in range(len(numlist)):
