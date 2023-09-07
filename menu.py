@@ -38,6 +38,8 @@ for i in range(len(numlist)-1):
     note.append(a_line)
     note.append("\n")
 
+with open(os.path.join(path,"menu.md"),mode="r",encoding="utf_8") as f_read:
+    note=note+["\n"]+f_read.readlines()
 
 print(note)
 
