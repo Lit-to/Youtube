@@ -34,7 +34,7 @@ note.append("|--|--|--|--|--|--|")
 note.append("\n")
 
 for i in range(len(numlist)-1):
-    a_line="|MC-"+numlist[i]+"|"+time_stamps[i]+"|"+titles[i]+"|"+"https://bugs.mojang.com/browse/MC-"+numlist[i]+"|"+youtube_link[i]+"|"
+    a_line="|[MC-"+numlist[i]+"](bugs/"+numlist[i]+"/main.md)"+"|"+time_stamps[i]+"|"+titles[i]+"|"+"https://bugs.mojang.com/browse/MC-"+numlist[i]+"|"+youtube_link[i]+"|"
     note.append(a_line)
     note.append("\n")
 
