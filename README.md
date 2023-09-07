@@ -11,3 +11,5 @@
 -   りっとーのYoutubeチャンネルのための資料です。
 -   間違いなどがあればTwitter(X)DMか、Youtubeコメントにお伝えください。
 -   ここにある資料は出典明記をしていただければ自由に引用可能です。
+
+りっとーのtwitter:https://twitter.com/lit_to_
