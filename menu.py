@@ -28,7 +28,7 @@ note=list()
 
 note.append("# 目次")
 note.append("\n")
-note.append("|項目|タイトル|日|バグレポート|詳細ファイル(動画用台本)|動画リンク|")
+note.append("|項目|日付|タイトル|バグレポート|詳細ファイル(動画用台本)|動画リンク|")
 note.append("\n")
 note.append("|--|--|--|--|--|--|")
 note.append("\n")
