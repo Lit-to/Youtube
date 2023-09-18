@@ -26,10 +26,10 @@ Source:[MC-1310](https://bugs.mojang.com/browse/MC-1310)、``Dispensed boats and
     -   1.20 Pre-release 2 
 
 # 検証
-v1.20.1↓
+-   v1.20.1↓
 ![](2023-09-07-17-30-47.png)
 
-v1.19.4↓
+-   v1.19.4↓
 ![](2023-09-07-17-31-49.png)
 
 

@@ -1,3 +1,4 @@
+# menu.md作成用
 import os
 dirlist=list()
 path=os.getcwd()
@@ -11,17 +12,22 @@ for i in dirlist:
     if i.isdigit():
         numlist.append(i)
 
-
-titles=list()
-time_stamps=list()
-youtube_link=list()
-for i in numlist:
-    with open(os.path.join(dirname,i,"main.md"),mode="r",encoding="utf_8") as f_read:
+line_out =list()
+for i in range(len(numlist)):
+    with open(os.path.join(dirname,numlist[i],"main.md"),mode="r",encoding="utf_8") as f_read:
         contents=f_read.readlines()
-        titles.append(contents[0][2:-1])
-        time_stamps.append(contents[1][4:-1])
-        youtube_link.append(contents[2][4:-1])
+        inp={"titles":str(),"page_id":int(),"time_stamps":str(),"youtube_link":str()}
+        line_out.append(inp)
+        line_out[i]["titles"]=contents[0][2:-1]
+        line_out[i]["page_id"]=int(contents[1][4:8]+contents[1][9:11]+contents[1][12:14]+contents[1][15:17]+contents[1][18:20]+contents[1][21:23]+contents[1][24:26]+contents[1][27:29]+contents[1][30:32])
+        print(str(line_out[i]["page_id"]))
+        line_out[i]["time_stamps"]=contents[1][4:-1]
+        line_out[i]["youtube_link"]=contents[2][4:-1]
+        line_out[i]["numlist"]=numlist[i]
 
+print(line_out)
+line_out=sorted(line_out, key=lambda x:x["page_id"])
+print(line_out)
 note=list()
 
 note.append("# 目次")
@@ -31,8 +37,10 @@ note.append("\n")
 note.append("|--|--|--|--|--|")
 note.append("\n")
 
+
 for i in range(len(numlist)):
-    a_line="|[MC-"+numlist[i]+"](bugs/"+numlist[i]+"/main.md)"+"|"+time_stamps[i]+"|"+titles[i]+"|"+"https://bugs.mojang.com/browse/MC-"+numlist[i]+"|"+youtube_link[i]+"|"
+    print(line_out[i])
+    a_line="|[MC-"+str(line_out[i]["numlist"])+"](bugs/"+str(line_out[i]["numlist"])+"/main.md)"+"|"+line_out[i]["time_stamps"]+"|"+line_out[i]["titles"]+"|"+"https://bugs.mojang.com/browse/MC-"+str(line_out[i]["numlist"])+"|"+line_out[i]["youtube_link"]+"|"
     note.append(a_line)
     note.append("\n")
 
