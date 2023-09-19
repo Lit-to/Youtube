@@ -16,8 +16,8 @@
 
 
 # ソース
--   [MC-261433](https://bugs.mojang.com/browse/MC-261433)、``Shield doesn't block TNT explosion``
--   [MC-92017](https://bugs.mojang.com/browse/MC-92017)、``Shield damage direction is incorrect``
+-   [MC-261433](https://bugs.mojang.com/browse/MC-261433)(``Shield doesn't block TNT explosion``)
+-   [MC-92017](https://bugs.mojang.com/browse/MC-92017)(``Shield damage direction is incorrect``)
 
 # 報告状況
 ## 最新の確認済みバージョン
