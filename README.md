@@ -9,8 +9,9 @@
 |[MC-30403](bugs/30403/main.md)|2023-09-08 16:03:01|馬などから走りながら下りたときダッシュがキャンセルされない|https://bugs.mojang.com/browse/MC-30403|未定|
 |[MC-261433](bugs/261433/main.md)|2023-09-19 03:31:31|TNTの爆発に巻き込まれたときに盾を構えていてもダメージを喰らう|https://bugs.mojang.com/browse/MC-261433|準備中|
 |[MC-259630](bugs/259630/main.md)|2023-09-20 02:56:33|ラクダなどに乗って水に入ると高く飛ぶ|https://bugs.mojang.com/browse/MC-259630|準備中|
-|[MC-257141](bugs/257141/main.md)|2023-09-22 05:41:43|無敵のネコはクリーパーを怖がらせない|https://bugs.mojang.com/browse/MC-257141|準備中|
+|[MC-257141](bugs/257141/main.md)|2023-09-22 05:41:43|無敵のネコはクリーパーを怖がらせない|https://bugs.mojang.com/browse/MC-257141|未定|
 |[MC-234511](bugs/234511/main.md)|2023-10-05 17:21:28|keepInventoryがあってもGUIに配置中のアイテムがドロップする|https://bugs.mojang.com/browse/MC-234511|準備中|
+|[MC-254850](bugs/254850/main.md)|2023-10-08 02:54:37|op持ちの人がLANワールドのホストをキックできる|https://bugs.mojang.com/browse/MC-254850|未定|
 
 # このレポジトリについて
 2023-09-08 05:31:59現在はまだYoutubeチャンネルが開設されていません。2024年2月を予定しています。
