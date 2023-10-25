@@ -15,7 +15,6 @@
 
 # 概要
 
-**この内容は実験的機能の一部です**
 今回は[MC-103171](https://bugs.mojang.com/browse/MC-103171)、``Selectors in written books require player to be operator to work``について紹介。
 日本語だと本に書かれたプレイヤーセレクタが動かない
 ただし、opを持って本を開けばきちんとプレイヤセレクタが動く

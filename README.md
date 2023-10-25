@@ -12,6 +12,8 @@
 |[MC-257141](bugs/257141/main.md)|2023-09-22 05:41:43|無敵のネコはクリーパーを怖がらせない|https://bugs.mojang.com/browse/MC-257141|未定|
 |[MC-234511](bugs/234511/main.md)|2023-10-05 17:21:28|keepInventoryがあってもGUIに配置中のアイテムがドロップする|https://bugs.mojang.com/browse/MC-234511|準備中|
 |[MC-254850](bugs/254850/main.md)|2023-10-08 02:54:37|op持ちの人がLANワールドのホストをキックできる|https://bugs.mojang.com/browse/MC-254850|未定|
+|[MC-1297](bugs/1297/main.md)|2023-10-25 13:16:17|板ガラス越しに攻撃が出来る|https://bugs.mojang.com/browse/MC-1297|準備中|
+|[MC-96409](bugs/96409/main.md)|2023-10-25 13:32:53|陸上でクリーパーが爆発しても乗っているボートを破壊できない|https://bugs.mojang.com/browse/MC-96409|準備中|
 
 # このレポジトリについて
 2023-09-08 05:31:59現在はまだYoutubeチャンネルが開設されていません。2024年2月を予定しています。
